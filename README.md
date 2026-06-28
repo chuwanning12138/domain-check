@@ -77,8 +77,8 @@
   - **CF_API_TOKEN**: 必须，需要 worker 和 kv 权限
   - **CF_KV_ID**: 必须，创建KV得到的ID值
   - **PASSWORD**: 必须，访问管理页的密码，默认为 `123123`
-  - **TGID**: 可选，tg机器人ID，用于发送tg通知
-  - **TGTOKEN**: 可选，tg聊天ID或频道ID，用于发送tg通知
+  - **TGID**: 可选，tg用户或者频道ID，用于指定tg通知的接收
+  - **TGTOKEN**: 可选，tgbot的token，用于发送tg通知
 - 转到 `variables` 选项卡，设置以下变量:
   - **CF_ACCOUNT_ID**: 必须，CF的账户ID，**是ID不是邮箱账号**
   - **CF_CRONS**: 可选，用于定时检查域名到期情况以发送tg通知
